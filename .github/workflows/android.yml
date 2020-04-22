@@ -24,5 +24,6 @@ jobs:
     - run: ls -lR
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v1.0.0           
-      path: build/apk/
+      uses: actions/upload-artifact@v1.0.0
+      with:        
+        path: build/apk/
