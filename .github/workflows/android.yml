@@ -25,7 +25,7 @@ jobs:
 
     steps:
     - uses: actions/upload-artifact@v1
-    - with:
-    - name: apks
-    - path: build/apk/
+      with:
+      name: apks
+      path: build/apk/
 
