@@ -28,3 +28,4 @@ jobs:
         with:
           name: apks
           path: build/apk/
+
