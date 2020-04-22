@@ -21,7 +21,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - run: gradle assemble
-    - run: ls -lR
+    - run: pwd
 
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
