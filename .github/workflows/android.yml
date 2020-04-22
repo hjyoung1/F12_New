@@ -21,3 +21,9 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - run: gradle assemble
+    - run: ls -lR
+    - name: Uploading APK
+        uses: actions/upload-artifact@v1
+        with:
+          name: apks
+          path: build/apk/
