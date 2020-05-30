@@ -6,7 +6,7 @@ var authConfig = {
   // Highly recommend using your own client_id and client_secret
   client_id: "202264815644.apps.googleusercontent.com",
   client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", //  token
+  refresh_token: "1//0gX7jKRwz2ZX0CgYIARAAGBASNwF-L9Irmnyxj8U3m2Bgv5I0FJklDjTVOMiagTr6heEXrOyXtOt9dnk5ECx0BM-UIpMq0lS0d9A", //  token
   /**
      * Set up multiple Drives to be displayed; add multiples by format
      * [id]: It can be team disk id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -27,8 +27,8 @@ var authConfig = {
       pass: "",
     },
     {
-      id: "root",
-      name: "PrivateDrive",
+      id: "13hRM7NirQ-Q3jaOAgap550CuEnvGumob",
+      name: "Cyber Drive",
       user: "",
       pass: "",
       protect_file_link: true,
